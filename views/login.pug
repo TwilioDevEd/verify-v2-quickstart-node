@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  .row.justify-content-center
+    .card.col-lg-4
+      .card-body
+        h1 #{title}
+        br
+        form#login-form.needs-validation(
+          method='post',
+          novalidate='',
+          class={ "was-validated": errors.wasValidated }
+        )
+          .form-group
+              label(for='username') Username
+              input.form-control#username(
+                name='username',
+                required='',
+                placeholder='Username'
+              )
+              if errors.username
+                .invalid-feedback
+                  | #{errors.username}
+          .form-group
+              label(for='password') Password
+              input.form-control#password(
+                type='password',
+                name='password',
+                required='',
+                placeholder='Password'
+              )
+              if errors.password
+                .invalid-feedback
+                  | #{errors.password}
+          button.btn.btn-primary.btn-block(type='submit') Log In
+

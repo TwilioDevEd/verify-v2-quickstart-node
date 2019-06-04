@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  .row.justify-content-center
+    .card.col-lg-4
+      .card-body
+        h1 #{title}
+        br
+        form#register-form.needs-validation(
+              method='post',
+              novalidate='',
+              class={ "was-validated": errors.wasValidated }
+          )
+          .form-group#username
+            label(for='username') Username
+            input.form-control(
+              name='username',
+              type='text',
+              required='',
+              placeholder='Username'
+            )
+            if errors.username
+                .invalid-feedback
+                  | #{errors.username}
+          .form-group#password
+            label(for='password') Password
+            input.form-control(
+              type='password',
+              name='password',
+              required='',
+              placeholder='Password'
+            )
+          .form-group#confirmPassword
+            label(for='confirmPassword') Password
+            input.form-control(
+              type='password',
+              name='confirmPassword',
+              required='',
+              placeholder='Confirm Password'
+            )
+            if errors.confirmPassword
+                .invalid-feedback
+                  | #{errors.confirmPassword}
+          .form-group#verifyPhoneNumber
+            label(for='verifyPhoneNumber') Phone Number
+            div
+                input.form-control(
+                  type='tel',
+                  name='phoneNumber',
+                  required='',
+                  placeholder='Phone Number'
+                )
+                if errors.phoneNumber
+                    .invalid-feedback
+                      | #{errors.phoneNumber}
+            br
+            .form-group.btn-group.btn-group-toggle(data-toggle='buttons')
+              label.btn.btn-secondary.active
+                input(type='radio', name='verificationMethod', value='sms', checked='')
+                |  SMS
+              label.btn.btn-secondary
+                input(type='radio', name='verificationMethod', value='call')
+                |  Call
+
+
+          button.btn.btn-primary.btn-block(type='submit') Sign Up
+

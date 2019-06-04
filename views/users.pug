@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    h1 #{title}
+    table.table.table-bordered(style='width:100%', border='1')
+      thead
+        tr
+          th(scope='col') Id
+          th(scope='col') Username
+          th(scope='col') PhoneNumber
+      tbody
+        each user in users
+          tr
+            td(scope='row') #{user.id}
+            td #{user.username}
+            td #{user.phoneNumber}

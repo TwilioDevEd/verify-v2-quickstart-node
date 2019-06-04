@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~intl-tel-input/build/css/intlTelInput.css';
+
+
+.form-group > div > .intl-tel-input {
+  width: 100%;
+}
+
+.was-validated, .invalid-feedback {
+  display: block;
+}
