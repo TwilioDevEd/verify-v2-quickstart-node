@@ -1,8 +1,8 @@
-
-language: node_js
-node_js:
-- '12.3.1'
+services:
+  - docker
 
 before_install:
-  - sudo apt update && sudo apt install -y build-essential libstdc++6
+  - docker build . -t verify-v2-quickstart-node
 
+script:
+  - docker run -it verify-v2-quickstart-node sh -c "yarn test"
