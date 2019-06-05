@@ -3,3 +3,6 @@ language: node_js
 node_js:
 - '12.3.1'
 
+before_install:
+  - sudo apt update && sudo apt install -y build-essential libstdc++6
+
