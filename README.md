@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node)
 
-[Read the full quickstart here](https://www.twilio.com/docs/verify/api-beta/quickstarts/python-flask)!
+[Read the full quickstart here](https://www.twilio.com/docs/verify/api-beta/quickstarts/node-express)!
 
 ## Local development
 
