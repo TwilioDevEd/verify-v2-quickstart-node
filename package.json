@@ -4,10 +4,10 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "export DEBUG=verify-v2-quickstart-node:server && node ./bin/www",
     "test": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.spec.js'",
     "test_watch": "./node_modules/.bin/mocha -w './{,!(node_modules)/**}/*.spec.js'",
-    "postinstall": "yarn build",
+    "postinstall": "yarn build && sequelize db:migrate",
     "build": "webpack --mode=development"
   },
   "dependencies": {
