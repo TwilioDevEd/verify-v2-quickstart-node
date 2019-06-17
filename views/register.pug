@@ -8,8 +8,7 @@ block content
         br
         form#register-form.needs-validation(
               method='post',
-              novalidate='',
-              class={ "was-validated": errors.wasValidated }
+              novalidate=''
           )
           .form-group#username
             label(for='username') Username
@@ -17,7 +16,8 @@ block content
               name='username',
               type='text',
               required='',
-              placeholder='Username'
+              placeholder='Username',
+              class={ "is-invalid": errors.username }
             )
             if errors.username
                 .invalid-feedback
@@ -28,7 +28,8 @@ block content
               type='password',
               name='password',
               required='',
-              placeholder='Password'
+              placeholder='Password',
+              class={ "is-invalid": errors.password }
             )
           .form-group#confirmPassword
             label(for='confirmPassword') Password
@@ -36,7 +37,8 @@ block content
               type='password',
               name='confirmPassword',
               required='',
-              placeholder='Confirm Password'
+              placeholder='Confirm Password',
+              class={ "is-invalid": errors.confirmPassword }
             )
             if errors.confirmPassword
                 .invalid-feedback
@@ -48,7 +50,8 @@ block content
                   type='tel',
                   name='phoneNumber',
                   required='',
-                  placeholder='Phone Number'
+                  placeholder='Phone Number',
+                  class={ "is-invalid": errors.phoneNumber }
                 )
                 if errors.phoneNumber
                     .invalid-feedback

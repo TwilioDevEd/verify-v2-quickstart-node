@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
     username,
     password,
     confirmPassword,
-    phoneNumber,
+    fullPhone: phoneNumber,
     verificationMethod,
   } = req.body;
 

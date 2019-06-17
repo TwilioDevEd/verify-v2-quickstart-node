@@ -37,7 +37,7 @@ describe('Register', function () {
       username: 'test_user',
       password: 'test_password',
       confirmPassword: 'test_password',
-      phoneNumber: '+523321678080',
+      fullPhone: '+523321678080',
       verificationMethod: 'sms',
     };
   });
