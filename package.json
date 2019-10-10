@@ -31,7 +31,7 @@
     "file-loader": "^3.0.1",
     "flash": "^1.1.0",
     "http-errors": "~1.6.3",
-    "intl-tel-input": "^15.1.0",
+    "intl-tel-input": "^16.0.5",
     "jquery": "^3.4.1",
     "mocha": "^6.1.4",
     "morgan": "~1.9.1",
