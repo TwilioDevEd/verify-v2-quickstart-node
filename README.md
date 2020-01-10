@@ -6,6 +6,8 @@
 
 [![Build Status](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node)
 
+> We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
+
 [Read the full quickstart here](https://www.twilio.com/docs/verify/api-beta/quickstarts/node-express)!
 
 ## Local development
