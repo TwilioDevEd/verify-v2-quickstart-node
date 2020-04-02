@@ -7,8 +7,6 @@ const supertest = require('supertest-session');
 const cheerio = require('cheerio');
 const app = require('../app');
 const db = require('../models');
-const { runMigrations } = require('../testUtilities');
-
 
 function Session() {
   return supertest(app);
@@ -26,10 +24,6 @@ function clearDb() {
 
 
 describe('Register', function () {
-  before(function () {
-    return runMigrations();
-  });
-
   beforeEach(async function () {
     await clearDb();
     this.session = Session();

@@ -4,7 +4,7 @@
 
 # Twilio Verify Quickstart with Twilio, Node.js, and Express
 
-[![Build Status](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/verify-v2-quickstart-node)
+![](https://github.com/TwilioDevEd/verify-v2-quickstart-node/workflows/Node.js/badge.svg)
 
 > We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
 
@@ -12,8 +12,7 @@
 
 ## Local development
 
-To run this project on your computer you will need to download and install [Node.js](http://nodejs.org/) and
- [yarn](https://www.npmjs.com/).
+To run this project on your computer you will need to download and install [Node.js](http://nodejs.org/).
 
 You will also need to [sign up for a Twilio account](https://www.twilio.com/try-twilio)
 if you don't have one already.
@@ -36,7 +35,7 @@ if you don't have one already.
 1. Navigate to the project directory in your terminal and run:
 
       ```bash
-      $ yarn install
+      $ npx yarn
       ```
 
     This should install all of our project dependencies from npm into a local
@@ -45,11 +44,12 @@ if you don't have one already.
 1. Run the web app.
 
     ```bash
-    $ yarn start
+    $ npx yarn start
     ```
 
 ## Meta
 
 * No warranty expressed or implied. Software is as is. Diggity.
+* The CodeExchange repository can be found [here](https://github.com/twilio-labs/code-exchange/).
 * [MIT License](http://www.opensource.org/licenses/mit-license.html)
 * Lovingly crafted by Twilio Developer Education.
