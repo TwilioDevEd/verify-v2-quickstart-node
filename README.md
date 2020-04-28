@@ -30,13 +30,17 @@ if you don't have one already.
    and local configuration. Save the file as `.env`.  You'll need to set
    `TWILIO_AUTH_TOKEN`, `TWILIO_ACCOUNT_SID`, and `VERIFICATION_SID`.
 
-   For the `VERIFICATION_SID` variable you'll need to provision a [Verification Service](https://www.twilio.com/console/verify/services) 
+   For the `VERIFICATION_SID` variable you'll need to provision a [Verification Service](https://www.twilio.com/console/verify/services)
+
+    ```bash
+    $ cp .env.example .env
+    ```
    
 1. Navigate to the project directory in your terminal and run:
 
-      ```bash
-      $ npx yarn
-      ```
+    ```bash
+    $ npm install
+    ```
 
     This should install all of our project dependencies from npm into a local
     `node_modules` folder.
@@ -44,7 +48,7 @@ if you don't have one already.
 1. Run the web app.
 
     ```bash
-    $ npx yarn start
+    $ npm start
     ```
 
 ## Meta

@@ -8,7 +8,7 @@
     "pretest": "sequelize db:migrate --env test",
     "test": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.spec.js'",
     "test_watch": "./node_modules/.bin/mocha -w './{,!(node_modules)/**}/*.spec.js'",
-    "postinstall": "yarn build && sequelize db:migrate",
+    "postinstall": "npm run build && sequelize db:migrate",
     "build": "webpack --mode=development"
   },
   "dependencies": {
@@ -36,7 +36,7 @@
     "jquery": "^3.4.1",
     "mocha": "^7.1.1",
     "morgan": "~1.10.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "popper.js": "^1.16.0",
