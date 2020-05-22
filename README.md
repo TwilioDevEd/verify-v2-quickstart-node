@@ -8,52 +8,102 @@
 
 > We are currently in the process of updating this sample template. If you are encountering any issues with the sample, please open an issue at [github.com/twilio-labs/code-exchange/issues](https://github.com/twilio-labs/code-exchange/issues) and we'll try to help you.
 
+## About
+
+This application example demonstrates how to do simple phone verification with Nodejs and Twilio Verify.
+
 [Read the full quickstart here](https://www.twilio.com/docs/verify/api-beta/quickstarts/node-express)!
 
-## Local development
+Implementations in other languages:
 
-To run this project on your computer you will need to download and install [Node.js](http://nodejs.org/).
+| .NET | Java | Python | PHP | Ruby |
+| :--- | :--- | :----- | :-- | :--- |
+| [Done](https://github.com/TwilioDevEd/verify-v2-quickstart-csharp) | [Done](https://github.com/TwilioDevEd/verify-v2-quickstart-java)  | [Done](https://github.com/TwilioDevEd/verify-v2-quickstart-python)    | [Done](https://github.com/TwilioDevEd/verify-v2-quickstart-php) | [Done](https://github.com/TwilioDevEd/verify-v2-quickstart-rails)  |
 
-You will also need to [sign up for a Twilio account](https://www.twilio.com/try-twilio)
-if you don't have one already.
+
+## Set up
+
+### Requirements
+
+- [Nodejs](https://nodejs.org/) v10 or v12
+- [Sqlite3](https://www.sqlite.org/)
+
+### Twilio Account Settings
+
+This application should give you a ready-made starting point for writing your own application.
+Before we begin, we need to collect all the config values we need to run the application:
+
+| Config Value | Description |
+| :----------  | :---------- |
+| TWILIO_ACCOUNT_SID / TWILIO_AUTH_TOKEN  | For Twilio API credentials find [here](https://www.twilio.com/console)|
+| VERIFICATION_SID  | For Verification Service SID [here](https://www.twilio.com/console/verify/services) |
+
+### Local development
 
 1. First clone this repository and `cd` into it.
 
    ```bash
-   $ git clone git@github.com:TwilioDevEd/verify-v2-quickstart-node.git
-   $ cd verify-v2-quickstart-node
+   git clone git@github.com:TwilioDevEd/verify-v2-quickstart-node.git
+   cd verify-v2-quickstart-node
    ```
 
-1. Next, open `.env.example` at the root of the project and update it with
-   values from your
-   [Twilio account](https://www.twilio.com/console)
-   and local configuration. Save the file as `.env`.  You'll need to set
-   `TWILIO_AUTH_TOKEN`, `TWILIO_ACCOUNT_SID`, and `VERIFICATION_SID`.
+2. Install dependencies.
 
-   For the `VERIFICATION_SID` variable you'll need to provision a [Verification Service](https://www.twilio.com/console/verify/services)
+   ```bash
+   npm install
+   ```
 
-    ```bash
-    $ cp .env.example .env
-    ```
-   
-1. Navigate to the project directory in your terminal and run:
+3. Set your environment variables. Copy the `env.example` file and edit it.
 
     ```bash
-    $ npm install
+    cp .env.example .env
     ```
 
-    This should install all of our project dependencies from npm into a local
-    `node_modules` folder.
+    See [Twilio Account Settings](#twilio-account-settings) to locate the necessary environment variables.
 
-1. Run the web app.
+4. Run the web app.
 
     ```bash
-    $ npm start
+    npm start
     ```
 
-## Meta
+5. The application should now be running on http://localhost:3000/, here you can
+register a new user account and proceed with a phone verification.
 
-* No warranty expressed or implied. Software is as is. Diggity.
-* The CodeExchange repository can be found [here](https://github.com/twilio-labs/code-exchange/).
-* [MIT License](http://www.opensource.org/licenses/mit-license.html)
-* Lovingly crafted by Twilio Developer Education.
+That's it!
+
+### Tests
+
+You can run the tests locally by typing:
+
+```bash
+npm test
+```
+
+### Cloud deployment
+
+Additionally to trying out this application locally, you can deploy it to a variety of host services. Here is a small selection of them.
+
+Please be aware that some of these might charge you for the usage or might make the source code for this application visible to the public. When in doubt research the respective hosting service first.
+
+| Service                           |                                                                                                                                                                                                                           |
+| :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Heroku](https://www.heroku.com/) | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)                                                                                                                                       |
+
+## Resources
+
+- The CodeExchange repository can be found [here](https://github.com/twilio-labs/code-exchange/).
+
+## Contributing
+
+This template is open source and welcomes contributions. All contributions are subject to our [Code of Conduct](https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+[MIT](http://www.opensource.org/licenses/mit-license.html)
+
+## Disclaimer
+
+No warranty expressed or implied. Software is as is.
+
+[twilio]: https://www.twilio.com
