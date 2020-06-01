@@ -63,3 +63,5 @@ typings/
 .idea
 public
 *.sqlite3
+
+.tool-versions
