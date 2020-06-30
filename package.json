@@ -40,7 +40,7 @@
     "passport-local": "^1.0.0",
     "popper.js": "^1.15.0",
     "postcss-loader": "^3.0.0",
-    "pug": "2.0.0-beta11",
+    "pug": "2.0.4",
     "sass-loader": "^7.1.0",
     "sequelize": "^5.8.7",
     "sequelize-cli": "^5.4.0",
