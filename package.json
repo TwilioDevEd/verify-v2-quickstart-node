@@ -24,7 +24,7 @@
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-mocha": "^6.3.0",
     "exports-loader": "^0.7.0",
