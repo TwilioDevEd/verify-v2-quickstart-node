@@ -21,7 +21,7 @@
     "cookie-parser": "~1.4.5",
     "cookie-session": "^1.4.0",
     "css-loader": "^4.3.0",
-    "debug": "~4.1.1",
+    "debug": "~4.2.0",
     "dotenv": "^8.2.0",
     "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
