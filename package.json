@@ -35,7 +35,7 @@
     "jquery": "^3.4.1",
     "mocha": "^6.1.4",
     "morgan": "~1.9.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "popper.js": "^1.15.0",
