@@ -33,7 +33,7 @@
     "http-errors": "~1.6.3",
     "intl-tel-input": "^15.1.0",
     "jquery": "^3.4.1",
-    "mocha": "^6.1.4",
+    "mocha": "^8.2.0",
     "morgan": "~1.9.1",
     "node-sass": "^4.12.0",
     "passport": "^0.4.0",
@@ -51,7 +51,7 @@
     "supertest-session": "^4.0.0",
     "tracer": "^0.9.8",
     "twilio": "^3.31.1",
-    "webpack": "^4.32.2"
+    "webpack": "^5.1.1"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.2"
