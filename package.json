@@ -23,7 +23,7 @@
     "css-loader": "^4.3.0",
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
-    "eslint": "^7.9.0",
+    "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-mocha": "^8.0.0",
