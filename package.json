@@ -29,7 +29,7 @@
     "eslint-plugin-mocha": "^8.0.0",
     "exports-loader": "^1.1.0",
     "express": "~4.17.1",
-    "file-loader": "^6.1.0",
+    "file-loader": "^6.2.0",
     "flash": "^1.1.0",
     "http-errors": "~1.8.0",
     "intl-tel-input": "^17.0.8",
