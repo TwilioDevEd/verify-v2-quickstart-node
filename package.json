@@ -56,6 +56,6 @@
     "webpack": "^5.16.0"
   },
   "devDependencies": {
-    "webpack-cli": "^4.3.1"
+    "webpack-cli": "^4.4.0"
   }
 }
