@@ -43,7 +43,7 @@
     "postcss": "^8.2.5",
     "postcss-loader": "^4.2.0",
     "pug": "3.0.0",
-    "sass-loader": "^11.0.0",
+    "sass-loader": "^11.0.1",
     "sequelize": "^6.5.0",
     "sequelize-cli": "^6.2.0",
     "should": "^13.2.3",
