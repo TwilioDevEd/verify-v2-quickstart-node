@@ -20,7 +20,7 @@
     "connect-roles": "^3.1.2",
     "cookie-parser": "~1.4.5",
     "cookie-session": "^1.4.0",
-    "css-loader": "^5.0.2",
+    "css-loader": "^5.1.0",
     "debug": "~4.3.1",
     "dotenv": "^8.2.0",
     "eslint": "^7.20.0",
