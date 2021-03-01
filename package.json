@@ -42,7 +42,7 @@
     "popper.js": "^1.16.0",
     "postcss": "^8.2.6",
     "postcss-loader": "^5.0.0",
-    "pug": "3.0.0",
+    "pug": "3.0.2",
     "sass-loader": "^11.0.1",
     "sequelize": "^6.5.0",
     "sequelize-cli": "^6.2.0",
