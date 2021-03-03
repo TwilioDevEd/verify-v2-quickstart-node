@@ -33,7 +33,7 @@
     "flash": "^1.1.0",
     "http-errors": "~1.8.0",
     "intl-tel-input": "^17.0.12",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "mocha": "^8.3.0",
     "morgan": "~1.10.0",
     "node-sass": "^5.0.0",
