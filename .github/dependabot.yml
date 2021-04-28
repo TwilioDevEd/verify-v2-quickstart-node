@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 5.35.0
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: mocha
+    versions:
+    - 8.3.1
