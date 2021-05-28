@@ -53,7 +53,7 @@
     "supertest-session": "^4.1.0",
     "tracer": "^1.1.4",
     "twilio": "^3.61.0",
-    "webpack": "^5.36.0"
+    "webpack": "^5.38.1"
   },
   "devDependencies": {
     "webpack-cli": "^4.6.0"
