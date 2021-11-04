@@ -45,7 +45,7 @@
     "pug": "3.0.2",
     "sass-loader": "^11.0.1",
     "sequelize": "^6.6.2",
-    "sequelize-cli": "^6.2.0",
+    "sequelize-cli": "^6.3.0",
     "should": "^13.2.3",
     "sqlite3": "^5.0.2",
     "style-loader": "^2.0.0",
