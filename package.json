@@ -40,7 +40,7 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "popper.js": "^1.16.0",
-    "postcss": "^8.2.13",
+    "postcss": "^8.4.21",
     "postcss-loader": "^5.2.0",
     "pug": "3.0.2",
     "sass-loader": "^11.0.1",
